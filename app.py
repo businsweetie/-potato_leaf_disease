@@ -18,7 +18,7 @@ interface_classification_image = gr.Interface(
     outputs=outputs_image,
     title=config.TASK_LIST[0],
     description="Загрузить ваше фото и выберите модель для определения уровня заболевания картофеля",
-    examples=[["examples/thumb.jpg"], ["examples/thumb1.jpg"]],
+    examples=[["examples/early.jpg"], ["examples/late.jpg"], ["examples/healthy.jpg"]],
     cache_examples=False,
 )
 
@@ -39,7 +39,7 @@ interface_segmentation_image = gr.Interface(
     outputs=outputs_segm_image,
     title=config.TASK_LIST[1],
     description="Загрузить ваше фото и выберите модель для определения очагов заболевания",
-    examples=[["examples/thumb.jpg"], ["examples/thumb1.jpg"]],
+    examples=[["examples/early.jpg"], ["examples/late.jpg"], ["examples/healthy.jpg"]],
     cache_examples=False,
 )
 
