@@ -1,1 +1,1 @@
-# -potato_leaf_disease
+# potato_leaf_disease
